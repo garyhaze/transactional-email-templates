@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Thanks for signing up with indico!</title>
+<link href="../styles.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage">
+
+<table class="body-wrap">
+	<tr>
+		<td></td>
+		<td class="container" width="600">
+			<div class="content">
+				<table class="main" width="100%" cellpadding="0" cellspacing="0" itemprop="action" itemscope itemtype="http://schema.org/ConfirmAction">
+					<tr>
+						<td>
+							<table class="header" cellpadding="0" cellspacing="0" align="center">
+								<tr>
+									<td width="600">
+										<img src="/images/header-banner.png" width:"100%"></img>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="content-wrap">
+							<meta itemprop="name" content="Welcome Email"/>
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="content-block">
+										<strong>Welcome (Name)!</strong>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										Thank you for joining indico, here's a quick guide to help you get started.
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong style="font-size:150%">Your API Key</strong><br>
+										You can find your API key by <a href="http://indico.io/login">logging into your account.</a>
+										<a href="http://indico.io/login"><img src="/images/api-key.png"></img></a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<br>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong style="font-size:150%">Making Your First API Call</strong><br>
+										Here's how you make your first API call:
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong>Python</strong>
+										<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">indicoio</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">sentiment(text,</span> <span style="color: #f8f8f2">api_key</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;YOUR_API_KEY&quot;</span><span style="color: #f8f8f2">)</span></pre>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong>Ruby</strong>
+										<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">require</span> <span style="color: #e6db74">&#39;indico&#39;</span>
+
+<span style="color: #f8f8f2">config</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span> <span style="color: #f8f8f2">api_key:</span> <span style="color: #e6db74">&#39;YOUR_API_KEY&#39;</span> <span style="color: #f8f8f2">}</span>
+<span style="color: #66d9ef">Indico</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">sentiment(</span><span style="color: #e6db74">&#39;This song is incredible&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">config)</span>
+</pre></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong>Node.js</strong>
+										<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">indicoio</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">sentiment</span><span style="color: #f8f8f2">(</span><span style="color: #960050;">”</span><span style="color: #a6e22e">Text</span> <span style="color: #a6e22e">to</span> <span style="color: #a6e22e">analyze</span><span style="color: #960050">”</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">{</span><span style="color: #960050">’</span><span style="color: #a6e22e">api_key</span><span style="color: #960050">’</span><span style="color: #f92672">:</span><span style="color: #960050">’</span><span style="color: #a6e22e">YOUR_API_KEY</span><span style="color: #960050">’</span><span style="color: #f8f8f2">},</span> <span style="color: #a6e22e">callback</span><span style="color: #f8f8f2">)</span>
+</pre></div>
+								<tr>
+									<td>
+										<br>
+									</td>
+								</tr>
+								<tr>
+									<td class="content-block">
+										<strong style="font-size:150%">We're Here to Help</strong><br>
+										If you run into any issues, have any questions, or just want to say hi <a href="mailto:contact@indico.io?Subject=Hello%20indico!">drop us a line!</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<br>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<strong>Happy Hacking!</strong><br>
+										Slater Victoroff<br>Co-Founder & CEO
+									</th>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<div class="footer">
+					<table width="100%">
+						<tr>
+							<td class="aligncenter content-block">
+								Let's stay in touch
+							</td>
+						</tr>
+						<tr>
+							<td class="aligncenter content-block">
+								<a href="http://twitter.com/indicodata"><img src="/images/social-twitter.png" style="padding-right: 25px"></img></a>
+								<a href="http://facebook.com/indicodatasolutions"><img src="/images/social-facebook.png" style="padding-right:25px"></img></a>
+								<a href="http://github.com/indicodatasolutions"><img src="/images/social-github.png" style="padding-right:25px"></img></a>
+								<a href="https://www.youtube.com/channel/UCGuUwm6PaPkeftGFmNOfTHw"><img src="/images/social-youtube.png" style="padding-right:25px"></img></a>
+								<a href="mailto:contact@indico.io?Subject=Hello%20indico!"><img src="/images/social-email.png" style="padding-right:25px"></img></a>
+							</td>
+						</tr>
+					</table>
+				</div></div>
+		</td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>
